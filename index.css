@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+  /* font-family: "Barlow Semi Condensed", sans-serif; */
+}
+body {
+  background-color: #e0e6ea;
+}
+.logo {
+  width: 200px;
+  height: 40px;
+  background-image: "Images/wppusher-logo-copy.png";
+}
+
+.nav-bar,
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+}
+.account {
+  border-color: #646e7a;
+  padding: 10px;
+}
+.body-div {
+  display: grid;
+  margin: auto;
+  width: 850px;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  margin: 20px 0px;
+  border-radius: 6px;
+  /* width: 895px;
+  height: 845px; */
+}
+
+.checkout {
+  max-height: 680px;
+}
+.basic,
+.payment,
+h2 {
+  margin: 0px 30px;
+}
+
+h2 {
+  width: 161px;
+  height: 54px;
+  margin-top: 30px;
+  color: #1d2c3c;
+}
+h3 {
+  margin: 20px 0px;
+}
+
+hr {
+  color: #f5f7fa;
+  margin: 10px 0px;
+}
+h4 {
+  width: 220px;
+  height: 32px;
+  color: #1d2c3c;
+}
+
+h5 {
+  margin: 15px 25px;
+  color: #1d2c3c;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+}
+
+.name-input {
+  width: 227px;
+}
+
+label {
+  color: #1d2c3c;
+  margin-left: 10px;
+}
+input {
+  margin: 20px 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.email-input {
+  width: 370px;
+}
+.card-input {
+  width: 483px;
+}
+
+button {
+  width: 483px;
+  height: 52px;
+  margin: 20px 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #038e7d;
+  border-color: #249d6d;
+}
+.support {
+  color: #646e7a;
+}
+.mask {
+  height: 20px;
+  width: 20px;
+  margin-left: 100px;
+  margin-right: 5px;
+}
+.shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.freelancer {
+  background-color: #1179bf;
+  color: #ffffff;
+  width: 231px;
+  height: 650px;
+  padding: 20px 40px;
+}
+
+.combined-shape {
+  height: 18px;
+  width: 18px;
+  padding-right: 10px;
+}
+.quote {
+  margin-top: 30px;
+}
+
+.footer-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.bitmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.power-by {
+  height: 20px;
+  width: 92px;
+}
+
+.switch {
+  width: 184px;
+  height: 51px;
+  margin-top: 30px;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+.details {
+  width: 170px;
+  height: 96px;
+  margin-top: 40px;
+}
+
+.pricing {
+  font: size 30px;
+}
